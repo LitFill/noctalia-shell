@@ -1,0 +1,377 @@
+{
+  "authentication": {
+    "error": "Kesalahan Autentikasi",
+    "failed": "Autentikasi gagal"
+  },
+  "bar": {
+    "widget-settings": {
+      "active-window": {
+        "colorize-icons": {
+          "description": "Terapkan warna tema ke ikon jendela aktif.",
+          "label": "Warnai Ikon"
+        },
+        "hide-mode": {
+          "description": "Atur perilaku widget ketika tidak ada jendela yang aktif.",
+          "label": "Mode tersembunyi"
+        },
+        "max-width": {
+          "description": "Mengatur ukuran horizontal maksimum widget. Widget akan menyusut untuk menyesuaikan konten yang lebih pendek.",
+          "label": "Lebar Maksimum"
+        },
+        "scrolling-mode": {
+          "description": "Kontrol kapan pengguliran teks diaktifkan untuk judul jendela yang panjang.",
+          "label": "Mode pengguliran"
+        },
+        "show-app-icon": {
+          "description": "Tampilkan ikon aplikasi di samping judul jendela.",
+          "label": "Tampilkan ikon aplikasi"
+        },
+        "use-fixed-width": {
+          "description": "Ketika diaktifkan, widget akan selalu menggunakan lebar maksimum alih-alih menyesuaikan dengan konten secara dinamis.",
+          "label": "Gunakan lebar tetap"
+        }
+      },
+      "audio-visualizer": {
+        "color-name": {
+          "description": "Pilih warna untuk visualizer.",
+          "label": "Isi Warna"
+        },
+        "hide-when-idle": {
+          "description": "Saat diaktifkan, visualizer akan disembunyikan kecuali saat musik diputar.",
+          "label": "Sembunyikan saat tidak ada media yang diputar"
+        },
+        "width": {
+          "description": "Lebar komponen kustom.",
+          "label": "Lebar"
+        }
+      },
+      "battery": {
+        "display-mode": {
+          "description": "Pilih bagaimana Anda ingin nilai ini ditampilkan.",
+          "label": "Mode Tampilan"
+        },
+        "low-battery-threshold": {
+          "description": "Tampilkan peringatan saat persentase baterai turun di bawah nilai ini.",
+          "label": "Batas peringatan baterai lemah"
+        }
+      },
+      "brightness": {
+        "display-mode": {
+          "description": "Pilih bagaimana Anda ingin nilai ini ditampilkan.",
+          "label": "Mode Tampilan"
+        }
+      },
+      "clock": {
+        "clock-display": {
+          "description": "Sesuaikan tampilan jam Anda dengan menambahkan token dari daftar dibawah ini. Untuk menggunakan format 12 jam, Anda harus menyertakan token 'AP'.",
+          "label": "Tampilan jam"
+        },
+        "custom-font": {
+          "description": "Pilih font kustom untuk tampilan jam.",
+          "label": "Font kustom",
+          "placeholder": "Pilih font kustom...",
+          "search-placeholder": "Cari font..."
+        },
+        "horizontal-bar": {
+          "description": "Tips: Gunakan \\n untuk membuat baris baru.",
+          "label": "Bilah horizontal"
+        },
+        "preview": "Pratinjau",
+        "use-custom-font": {
+          "description": "Ganti pilihan font bawaan dengan font kustom untuk jam.",
+          "label": "Gunakan font kustom"
+        },
+        "use-monospaced-font": {
+          "description": "Saat diaktifkan, jam akan menggunakan font monospasi.",
+          "label": "Gunakan font monospasi"
+        },
+        "use-primary-color": {
+          "description": "Saat diaktifkan, ini menerapkan warna utama untuk penekanan.",
+          "label": "Gunakan warna utama"
+        },
+        "vertical-bar": {
+          "description": "Gunakan spasi untuk memisahkan setiap bagian ke baris baru.",
+          "label": "Bilah vertikal"
+        }
+      },
+      "control-center": {
+        "browse-file": "Jelajahi Berkas",
+        "browse-library": "Jelajahi Pustaka",
+        "icon": {
+          "description": "Pilih ikon dari pustaka atau berkas kustom.",
+          "label": "Ikon"
+        },
+        "select-custom-icon": "Pilih ikon kustom",
+        "use-distro-logo": {
+          "description": "Gunakan logo distro Anda alih-alih ikon kustom.",
+          "label": "Gunakan logo distro alih-alih ikon"
+        }
+      },
+      "custom-button": {
+        "browse": "Browse",
+        "collapse-condition": {
+          "description": "If the output text matches this value, the button will collapse.",
+          "label": "Collapse condition"
+        },
+        "display-command-output": {
+          "description": "Enter a command to run at a regular interval. The first line of its output will be displayed as text.",
+          "label": "Display Command Output",
+          "stream-description": "Enter a command to run continuously."
+        },
+        "dynamic-text": "Dynamic text",
+        "icon": {
+          "description": "Select an icon from the library.",
+          "label": "Icon"
+        },
+        "left-click": {
+          "description": "Command to execute when the button is left-clicked.",
+          "label": "Left click"
+        },
+        "middle-click": {
+          "description": "Command to execute when the button is middle-clicked.",
+          "label": "Middle click"
+        },
+        "parse-json": {
+          "description": "Parse the command output as a JSON object to dynamically set text and icon.",
+          "label": "Parse output as JSON"
+        },
+        "refresh-interval": {
+          "description": "Interval in milliseconds.",
+          "label": "Refresh interval"
+        },
+        "right-click": {
+          "description": "Command to execute when the button is right-clicked.",
+          "label": "Right click"
+        },
+        "text-stream": {
+          "description": "Streamed lines from the command will be displayed as text on the button.",
+          "label": "Stream"
+        }
+      },
+      "dialog": {
+        "apply": "Apply",
+        "cancel": "Cancel"
+      },
+      "keyboard-layout": {
+        "display-mode": {
+          "description": "Choose how you'd like this value to appear.",
+          "label": "Display mode"
+        }
+      },
+      "lock-keys": {
+        "browse": "Browse",
+        "show-caps-lock": {
+          "description": "Display caps lock status.",
+          "label": "Caps Lock"
+        },
+        "show-num-lock": {
+          "description": "Display num lock status.",
+          "label": "Num Lock"
+        },
+        "show-scroll-lock": {
+          "description": "Display scroll lock status.",
+          "label": "Scroll Lock"
+        }
+      },
+      "media-mini": {
+        "hide-mode": {
+          "description": "Controls how the widget behaves when no media is playing.",
+          "label": "Hiding mode"
+        },
+        "max-width": {
+          "description": "Sets the maximum horizontal size of the widget. The widget will shrink to fit shorter content.",
+          "label": "Maximum Width"
+        },
+        "no-active-player": "No active player",
+        "scrolling-mode": {
+          "description": "Control when text scrolling is enabled for long track titles.",
+          "label": "Scrolling mode"
+        },
+        "show-album-art": {
+          "description": "Display the album artwork for the currently playing track.",
+          "label": "Show album art"
+        },
+        "show-visualizer": {
+          "description": "Display an audio visualizer when music is playing.",
+          "label": "Show visualizer"
+        },
+        "use-fixed-width": {
+          "description": "When enabled, the widget will always use the maximum width instead of dynamically adjusting to content.",
+          "label": "Use Fixed Width"
+        },
+        "visualizer-type": {
+          "description": "Choose the style of audio visualizer to display.",
+          "label": "Visualizer type"
+        }
+      },
+      "microphone": {
+        "display-mode": {
+          "description": "Choose how you'd like this value to appear.",
+          "label": "Display mode"
+        }
+      },
+      "notification-history": {
+        "hide-badge-when-zero": {
+          "description": "Hide the notification badge when there are no unread notifications.",
+          "label": "Hide badge when zero"
+        },
+        "show-unread-badge": {
+          "description": "Display a badge showing the number of unread notifications.",
+          "label": "Show unread badge"
+        }
+      },
+      "section-editor": {
+        "placeholder": "Select a widget to add...",
+        "search-placeholder": "Search widget..."
+      },
+      "spacer": {
+        "width": {
+          "description": "Spacing width in pixels",
+          "label": "Width"
+        }
+      },
+      "system-monitor": {
+        "cpu-temperature": {
+          "description": "Show CPU temperature readings if available.",
+          "label": "CPU temperature"
+        },
+        "cpu-usage": {
+          "description": "Display current CPU usage percentage.",
+          "label": "CPU usage"
+        },
+        "memory-percentage": {
+          "description": "Show memory usage as a percentage instead of absolute values.",
+          "label": "Memory as percentage"
+        },
+        "memory-usage": {
+          "description": "Display current RAM usage information.",
+          "label": "Memory usage"
+        },
+        "network-traffic": {
+          "description": "Display network upload and download speeds.",
+          "label": "Network traffic"
+        },
+        "storage-usage": {
+          "description": "Show disk space usage information.",
+          "label": "Storage usage"
+        }
+      },
+      "taskbar": {
+        "colorize-icons": {
+          "description": "Apply theme colors to taskbar icons.",
+          "label": "Colorize Icons"
+        },
+        "hide-mode": {
+          "description": "Controls how the widget behaves when there are no matching windows.",
+          "label": "Hiding mode"
+        },
+        "only-active-workspaces": {
+          "description": "Show only apps from active workspaces.",
+          "label": "Only from active workspaces"
+        },
+        "only-same-output": {
+          "description": "Show only apps from the output where the bar is located.",
+          "label": "Only from same output"
+        }
+      },
+      "tray": {
+        "colorize-icons": {
+          "description": "Apply theme colors to tray icons.",
+          "label": "Colorize Icons"
+        },
+        "drawer-enabled": {
+          "description": "When enabled, unpinned tray items are shown in a drawer panel. When disabled, all tray items are shown inline.",
+          "label": "Enable Drawer"
+        }
+      },
+      "volume": {
+        "display-mode": {
+          "description": "Choose how you'd like this value to appear.",
+          "label": "Display mode"
+        }
+      },
+      "workspace": {
+        "character-count": {
+          "description": "Number of characters to display from workspace names (1-10).",
+          "label": "Character count"
+        },
+        "hide-unoccupied": {
+          "description": "Don't display workspaces without windows.",
+          "label": "Hide unoccupied"
+        },
+        "label-mode": {
+          "description": "Choose how workspace labels are displayed.",
+          "label": "Label Mode"
+        }
+      }
+    }
+  },
+  "battery": {
+    "charging": "Mengisi daya.",
+    "charging-rate": "Laju pengisian daya: {rate} W.",
+    "discharging": "Menguras daya.",
+    "discharging-rate": "Laju pengurasan daya: {rate} W.",
+    "health": "Kesehatan: {percent}%",
+    "idle": "Siaga.",
+    "no-battery-detected": "Baterai tidak terdeteksi.",
+    "panel": {
+      "balanced": "Seimbang ({percent}%)",
+      "disabled": "Pengelola baterai dinonaktifkan",
+      "full": "Kapasitas penuh ({percent}%)",
+      "lifespan": "Masa pakai diperpanjang ({percent}%)",
+      "title": "Batas pengisian daya"
+    },
+    "plugged-in": "Terhubung.",
+    "time-left": "Sisa waktu: {time}.",
+    "time-until-full": "Waktu hingga penuh: {time}."
+  },
+  "bluetooth": {
+    "panel": {
+      "available-devices": "Perangkat tersedia",
+      "blocked": "Diblokir",
+      "connect": "Hubungkan",
+      "connected-devices": "Perangkat terhubung",
+      "disabled": "Bluetooth mati",
+      "disconnect": "Putuskan",
+      "enable-message": "Nyalakan Bluetooth untuk melihat perangkat yang tersedia.",
+      "known-devices": "Perangkat dikenal",
+      "pairing": "Memasangkan...",
+      "pairing-mode": "Pastikan perangkat Anda berada dalam mode pemasangan.",
+      "scanning": "Mencari perangkat...",
+      "title": "Bluetooth"
+    }
+  },
+  "calendar": {
+    "panel": {
+      "week": "Pekan"
+    },
+    "weather": {
+      "loading": "Memuat data cuaca..."
+    }
+  },
+  "clock": {
+    "tooltip": "Buka kalender"
+  },
+  "dock": {
+    "menu": {
+      "close": "Tutup",
+      "focus": "Fokus",
+      "pin": "Sematkan",
+      "unpin": "Lepas sematan"
+    }
+  },
+  "general": {
+    "no-results": "Tidak ada hasil",
+    "no-summary": "Tidak ada ringkasan",
+    "unknown": "Tak diketahui"
+  },
+  "launcher": {
+    "pin": "Sematkan ke dok",
+    "unpin": "Lepas sematan dari dok"
+  },
+  "lock-screen": {
+    "authenticating": "Memverifikasi identitas...",
+    "authentication-failed": "Autentikasi gagal",
+    "password": "Masukkan sandi Anda..."
+  }
+}
